@@ -12,7 +12,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <span className="text-xl font-bold">
-              Dev<span className="text-blue-500">Portfolio</span>
+              <span className="text-blue-500">Miguel Advincula</span>
             </span>
           </Link>
           <div className="flex items-center gap-4">
@@ -33,10 +33,6 @@ export default function Home() {
                 Contact
               </Link>
             </nav>
-            <ThemeToggle />
-            <button className="md:hidden text-white p-2 hover:bg-white/10 rounded-full transition-colors">
-              <Menu className="w-6 h-6" />
-            </button>
           </div>
         </div>
       </header>
@@ -48,10 +44,10 @@ export default function Home() {
           <div className="flex items-center justify-center p-8 bg-zinc-900">
             <div className="flex flex-col items-center lg:items-start gap-4 pt-16 lg:pt-0">
               <div className="w-24 h-24 bg-blue-500 rounded-full flex items-center justify-center mb-4">
-                <span className="text-3xl font-bold text-black">A</span>
+                <span className="text-3xl font-bold text-black">M</span>
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-white">Alex Johnson</h2>
-              <p className="text-xl text-zinc-400">Full-Stack Developer</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-white">Miguel Advincula</h2>
+              <p className="text-xl text-zinc-400">Student</p>
               <div className="flex gap-4 mt-6">
                 <Link href="#" className="text-zinc-400 hover:text-blue-500 transition-colors">
                   <Github className="w-5 h-5" />
